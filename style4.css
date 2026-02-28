@@ -8,7 +8,7 @@
 
 html, body {
     font-family: 'Didact Gothic', sans-serif;
-    background-color: #DCC4A5;
+    background-color: #2a1832;
     color: white;
     margin: 0;
     height: 100%;
@@ -16,9 +16,9 @@ html, body {
 
 .container {
     width: 1000px; /* container width */
-    background-color: #0F1626;
-    border-left: 5px solid #ff533d; 
-    border-right: 5px solid #ff533d; 
+    background-color: #e8d5b7;
+    border-left: 5px solid #c9a84c; 
+    border-right: 5px solid #c9a84c; 
     padding: 20px;
     text-align: center;
     margin: 0 auto;
