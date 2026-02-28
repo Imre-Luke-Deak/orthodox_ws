@@ -35,6 +35,7 @@ html, body {
 
 img {
     border: none;
+    max-width: 100%;
 }
 
 .img_centered {
