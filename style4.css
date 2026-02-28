@@ -34,10 +34,11 @@ html, body {
 }
 
 img {
-    border: 2px solid #c9a84c;
+    border: none;
 }
 
-img_no_border {
+.img_w_border {
+    border: 2px solid #c9a84c;
 }
 
 h1 {
