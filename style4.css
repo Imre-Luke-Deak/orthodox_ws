@@ -37,6 +37,11 @@ img {
     border: none;
 }
 
+.img_centered {
+    display: block;
+    margin: 0 auto;
+}
+
 .img_w_border {
     border: 2px solid #c9a84c;
 }
