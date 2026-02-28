@@ -37,6 +37,9 @@ img {
     border: 2px solid #c9a84c;
 }
 
+img_no_border {
+}
+
 h1 {
     color: #2a1832;
     font-size: 36px;
