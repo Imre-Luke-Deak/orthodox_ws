@@ -172,3 +172,8 @@ ul {
 .content-with-image .side-text {
     flex: 1;
 }
+
+.content-with-image ul {
+    list-style-position: outside;
+    padding-left: 16px;
+}
