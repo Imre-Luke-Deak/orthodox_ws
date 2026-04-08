@@ -150,3 +150,24 @@ ul {
     margin: 10px 0;
     color: #1a0f22; /* Changed: was white, now matches body text */
 }
+
+/* Slop code, image to the side, text left align */
+
+.content-with-image {
+    display: flex;
+    gap: 32px;
+    align-items: flex-start;
+}
+
+.content-with-image .side-image {
+    flex: 0 0 240px;
+}
+
+.content-with-image .side-image img {
+    width: 100%;
+    display: block;
+}
+
+.content-with-image .side-text {
+    flex: 1;
+}
