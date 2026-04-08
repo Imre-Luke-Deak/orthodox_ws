@@ -161,6 +161,7 @@ ul {
 
 .content-with-image .side-image {
     flex: 0 0 240px;
+    margin-top: 45px;
 }
 
 .content-with-image .side-image img {
