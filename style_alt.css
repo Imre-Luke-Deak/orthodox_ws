@@ -218,3 +218,16 @@ ul {
 .notation-table a:hover {
     color: #808080; /* matches your a:hover */
 }
+
+.notation-table td:nth-child(2),
+.notation-table td:nth-child(3),
+.notation-table td:nth-child(4) {
+    text-align: center;
+}
+
+.notation-table th:nth-child(1),
+.notation-table th:nth-child(2),
+.notation-table th:nth-child(3),
+.notation-table th:nth-child(4) {
+    text-align: center;
+}
