@@ -177,3 +177,44 @@ ul {
     list-style-position: outside;
     padding-left: 16px;
 }
+
+/* slop code, table edition */
+
+.notation-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 18px; /* matches your p and ul font-size */
+    color: #1a0f22;
+}
+
+.notation-table th {
+    background-color: #4a2d5a;
+    color: #e8d5b7;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px 14px;
+    border-bottom: 2px solid #c9a84c;
+}
+
+.notation-table td {
+    padding: 10px 14px;
+    border-bottom: 1px solid #c9a84c;
+    vertical-align: middle;
+}
+
+.notation-table tr:last-child td {
+    border-bottom: none;
+}
+
+.notation-table tr:hover td {
+    background-color: #d9c4a3; /* slightly darker than your #e8d5b7 container */
+}
+
+.notation-table a {
+    color: #1a0f22; /* matches your default link colour */
+    text-decoration: none;
+}
+
+.notation-table a:hover {
+    color: #c9a84c; /* matches your a:hover */
+}
