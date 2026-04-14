@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="style_alt.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 </head>
 
 <body>
@@ -54,6 +55,20 @@
         <div class="side-image">
         <img src="media/gallery/StJohnofDamascus.jpg" alt="Damaszkuszi Szent János" class="img_w_border">
             </div>
+        </div>
+
+        <!-- Bevezetes a bizanci Egyhazi zenei vilagba - M. Muskovics -->
+
+        <div id="slide-viewer">
+            <div class="toolbar">
+                <button id="prev">← Prev</button>
+                <span id="pageInfo">1 / 1</span>
+                <button id="next">Next →</button>
+                <button id="zoomOut">−</button>
+                <span id="zoomVal">100%</span>
+                <button id="zoomIn">+</button>
+            </div>
+            <canvas id="pdfCanvas"></canvas>
         </div>
 
         <br>
@@ -226,4 +241,5 @@
 </div>
 
 </body>
+    <script src="script.js"></script>
 </html>
