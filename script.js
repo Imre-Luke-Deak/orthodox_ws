@@ -18,7 +18,7 @@ async function renderPage(num) {
 }
 
 // Auto-loads the PDF from your repo
-fetch('./assets/slides.pdf')
+fetch('./chant/bizanci_intro_MM.pdf')
   .then(res => res.arrayBuffer())
   .then(buf => pdfjsLib.getDocument({ data: buf }).promise)
   .then(doc => { pdfDoc = doc; renderPage(1); });
