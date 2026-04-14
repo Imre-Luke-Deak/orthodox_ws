@@ -22,7 +22,7 @@ async function renderPage(num) {
 }
 
 // Load PDF
-fetch('media/bizanci_intro_MM.pdf')
+fetch('chant/bizanci_intro_MM.pdf')
   .then(res => res.arrayBuffer())
   .then(buf => pdfjsLib.getDocument({ data: buf }).promise)
   .then(doc => {
