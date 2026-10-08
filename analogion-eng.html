@@ -6,7 +6,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="style_alt.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 </head>
 
 <body>
@@ -38,17 +37,8 @@
         <!-- Index -->
         <h4><u>Tartalom:</u></h4> 
         <ul>
-            <li><a href="#triszagion-imak" class="link-underlined">Triszágion imák</a></li>
-            <li><a href="#imaorak" class="link-underlined">Imaórák</a></li>
-            <li><a href="#liturgia" class="link-underlined">Liturgia</a></li>
-            <li><a href="#vecsernye" class="link-underlined">Vecsernye</a></li>
-            <li><a href="#hajnali-istentisztelet" class="link-underlined">Hajnali Istentisztelet</a></li>
-            <li><a href="#kis-paraklisz" class="link-underlined">Kis Könyörgő Kánon az Istenszűlőnek (Paraklisz)</a></li>
-            <li><a href="#nagy-paraklisz" class="link-underlined">Nagy Könyörgő Kánon az Istenszűlőnek (Paraklisz)</a></li>
-            <li><a href="#keresztelkedes" class="link-underlined">Keresztelkedés (és bérmálás)</a></li>
-            <li><a href="#bermalas" class="link-underlined">Bérmálás</a></li>
-            <li><a href="#triszagion-szertartas" class="link-underlined">Triszágion szertartás: megemlékezés az elhunytakról</a></li>
-            <li><a href="#eskuvo" class="link-underlined">Esküvő</a></li>
+            <li><a href="#divine-liturgy" class="link-underlined">Divine Liturgy</a></li>
+
         </ul>
 
                 </div>
@@ -56,258 +46,24 @@
         <img src="media/gallery/StJohnofDamascus.jpg" alt="Damaszkuszi Szent János" class="img_w_border">
             </div>
         </div>
-
-        <!-- Bevezetes a bizanci Egyhazi zenei vilagba - M. Muskovics -->
-
-        <div id="slide-viewer">
-            <div class="toolbar">
-                <button id="prev">← Előző</button>
-                <span id="pageInfo">1 / 1</span>
-                <button id="next">Következő →</button>
-                <!-- <button id="zoomOut">−</button>
-                <span id="zoomVal">100%</span>
-                <button id="zoomIn">+</button> -->
-            </div>
-            <canvas id="pdfCanvas"></canvas>
-        </div>
-        <p>
-            <a href="https://imre-luke-deak.github.io/orthodox_ws/chant/bizanci_intro_MM.pdf" class="link-underlined">Reaktív Linkekkel Kiegészített PDF</a> <br>
-            Prezentációt készítette: Muskovics Marianna
-        </p>
-
         <br>
 
-        <h4 id="triszagion-imak">Triszágion imák</h4>
-        <p><a href="https://imre-luke-deak.github.io/orthodox_ws/chant/text/triszagion_ima.pdf" class="link-underlined">Triszágion Imák</a></p>
-
-        <br>
-
-        <h4 id="imaorak">Imaórák</h4>
-        
-        <p> <ul>
-        <li><a href="https://imre-luke-deak.github.io/orthodox_ws/chant/text/liturgikus_elso_imaora.pdf" class="link-underlined">Első Imaóra</a></li>
-        <li><a href="https://imre-luke-deak.github.io/orthodox_ws/chant/text/liturgikus_harmadik_imaora.pdf" class="link-underlined">Harmadik Imaóra</a></li>
-        <li><a href="https://imre-luke-deak.github.io/orthodox_ws/chant/text/hatodik_imaora_liturgikus.pdf" class="link-underlined">Hatodik Imaóra</a></li>
-        <li><a href="https://imre-luke-deak.github.io/orthodox_ws/chant/text/kilencedik_imaora_liturgikus.pdf" class="link-underlined">Kilencedik Imaóra</a></li>
-        </ul> </p>
-
-        <br>
-
-        <h4 id="liturgia">Liturgia</h4>
-        <p>
-            <a href="https://imre-luke-deak.github.io/orthodox_ws/chant/text/liturgia_struktura.pdf" class="link-underlined">Struktúra</a> <br>
-          
-        <table class="notation-table">
-            <thead>
-                <tr>
-                    <th>Feltámadási Apolytikion</th> <!-- set column titles -->
-                    <th>Bizánci Kotta</th>
-                    <th>Nyugati Kotta</th>
-                    <th>Hang fájl</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Összes Hang</td>
-                    <td><a href="chant/neumes/feltamad_apol/felapol_comp.pdf" target="_blank">⬇</a></td>
-                    <td><a href="chant/WN/feltamadasi_apolytikionok_comp.pdf" target="_blank">⬇</a></td>
-                    <td>❌</td>
-                </tr>
-    <!-- Egyén hangok beillesztése -->
-                <tr>
-                    <td>Első Hang</td>
-                    <td><a href="chant/neumes/feltamad_apol/felapol_a.pdf" target="_blank">⬇</a></td>
-                    <td><a href="chant/WN/feltamad_apol/elso_hang.pdf" target="_blank">⬇</a></td>
-                    <td><audio controls src="chant/audio/feltamadas_apol/Feltámadási apolytikion 1.hang.m4a" preload="none"></audio></td>
-                </tr>
-    <!-- sor beszúrás -->
-                <tr>
-                    <td>Második Hang</td>
-                    <td><a href="chant/neumes/feltamad_apol/felapol_b.pdf" target="_blank">⬇</a></td>
-                    <td><a href="chant/WN/feltamad_apol/masodik_hang.pdf" target="_blank">⬇</a></td>
-                    <td><audio controls src="chant/audio/feltamadas_apol/Feltámadási apolytikion 2.hang.m4a" preload="none"></audio></td>
-                </tr>
-    <!-- sor beszúrás -->
-                <tr>
-                    <td>Harmadik Hang</td>
-                    <td><a href="chant/neumes/feltamad_apol/felapol_y.pdf" target="_blank">⬇</a></td>
-                    <td><a href="chant/WN/feltamad_apol/harmadik_hang.pdf" target="_blank">⬇</a></td>
-                    <!--<audio controls src="chant/audio/feltamadas_apol/Feltámadási apolytikion 3.hang.m4a"></audio>-->
-                    <td><audio controls src="chant/audio/feltamadas_apol/Feltámadási apolytikion 3.hang.m4a" preload="none"></audio></td>
-                </tr>
-    <!-- sor beszúrás -->
-                <tr>
-                    <td>Negyedik Hang</td>
-                    <td><a href="chant/neumes/feltamad_apol/felapol_d.pdf" target="_blank">⬇</a></td>
-                    <td><a href="chant/WN/feltamad_apol/negyedik_hang.pdf" target="_blank">⬇</a></td>
-                    <td><audio controls src="chant/audio/feltamadas_apol/Feltámadási apolytikion 4.hang.m4a" preload="none"></audio></td>
-                </tr>
-    <!-- sor beszúrás -->
-                <tr>
-                    <td>Plagális Első Hang</td>
-                    <td><a href="chant/neumes/feltamad_apol/felapol_pl_a.pdf" target="_blank">⬇</a></td>
-                    <td><a href="chant/WN/feltamad_apol/otodik_hang.pdf" target="_blank">⬇</a></td>
-                    <td><audio controls src="chant/audio/feltamadas_apol/Feltámadási apolytikion 5.hang.m4a" preload="none"></audio></td>
-                </tr>
-    <!-- sor beszúrás -->
-                <tr>
-                    <td>Plagális Második Hang</td>
-                    <td><a href="chant/neumes/feltamad_apol/felapol_pl_b.pdf" target="_blank">⬇</a></td>
-                    <td><a href="chant/WN/feltamad_apol/hatodik_hang.pdf" target="_blank">⬇</a></td>
-                    <td><audio controls src="chant/audio/feltamadas_apol/Feltámadási apolytikion 6.hang.m4a" preload="none"></audio></td>
-                </tr>
-    <!-- sor beszúrás -->
-                <tr>
-                    <td>Mély Hang</td>
-                    <td><a href="chant/neumes/feltamad_apol/felapol_varysz.pdf" target="_blank">⬇</a></td>
-                    <td><a href="chant/WN/feltamad_apol/hetedik_hang.pdf" target="_blank">⬇</a></td>
-                    <td><audio controls src="chant/audio/feltamadas_apol/Feltámadási apolytikion 7.hang.m4a" preload="none"></audio></td>
-                </tr>
-    <!-- sor beszúrás -->
-                <tr>
-                    <td>Plagális Negyedik Hang</td>
-                    <td><a href="chant/neumes/feltamad_apol/felapol_pl_d.pdf" target="_blank">⬇</a></td>
-                    <td><a href="chant/WN/feltamad_apol/nyolcadik_hang.pdf" target="_blank">⬇</a></td>
-                    <!--<td><a href="chant/audio/feltamadas_apol/Feltámadási apolytikion 8.hang.m4a">▶</a></td> / EREDETI VERZIO-->
-                    <td><audio controls src="chant/audio/feltamadas_apol/Feltámadási apolytikion 8.hang.m4a" preload="none"></audio></td>
-                </tr>
-            </tbody>
-        </table>
-        
-        </p>
-
-        <br>
-
-        <h4 id="vecsernye">Vecsernye</h4>
-        <p><a href="https://imre-luke-deak.github.io/orthodox_ws/chant/text/vecsernye_struktura.pdf" class="link-underlined">Struktúra*</a></p>
-
-        <br>
-
-        <h4 id="hajnali-istentisztelet">Hajnali Istentisztelet</h4>
-        <p><a href="https://imre-luke-deak.github.io/orthodox_ws/chant/text/liturgia_struktura.pdf" class="link-underlined">Struktúra (WIP)</a></p>
-
-        <table class="notation-table">
-            <thead>
-                <tr>
-                    <th>Isten az Úr (Munka alatt)</th> <!-- set column titles -->
-                    <th>Bizánci Kotta</th>
-                    <th>Nyugati Kotta</th>
-                    <th>Hang fájl</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Összes Hang</td>
-                    <td><a href="chant/neumes/feltamad_apol/feltamadasi_apolytikionok_biz_compressed.pdf" target="_blank">⬇</a></td>
-                    <td><a href="chant/WN/feltamadasi_apolytikionok_comp.pdf" target="_blank">⬇</a></td>
-                    <td>❌</td>
-                </tr>
-    <!-- Egyén hangok beillesztése -->
-                <tr>
-                    <td>Első Hang</td>
-                    <td><a href="chant/neumes/feltamad_apol/feltamadasi_apolytikionok_biz_1.pdf" target="_blank">⬇</a></td>
-                    <td><a href="chant/WN/feltamad_apol/elso_hang.pdf" target="_blank">⬇</a></td>
-                    <td>❌</audio></td>
-                </tr>
-    <!-- sor beszúrás -->
-                <tr>
-                    <td>Második Hang</td>
-                    <td><a href="chant/neumes/isten_az_ur/Isten_Az_Úr_2.Hang.pdf" target="_blank">⬇</a></td>
-                    <td><a href="chant/WN/feltamad_apol/masodik_hang.pdf" target="_blank">⬇</a></td>
-                    <td>❌</audio></td>
-                </tr>
-    <!-- sor beszúrás -->
-                <tr>
-                    <td>Harmadik Hang</td>
-                    <td><a href="chant/neumes/feltamad_apol/feltamadasi_apolytikionok_biz_3.pdf" target="_blank">⬇</a></td>
-                    <td><a href="chant/WN/feltamad_apol/harmadik_hang.pdf" target="_blank">⬇</a></td>
-                    <!--<audio controls src="chant/audio/feltamadas_apol/Feltámadási apolytikion 3.hang.m4a"></audio>-->
-                    <td>❌</audio></td>
-                </tr>
-    <!-- sor beszúrás -->
-                <tr>
-                    <td>Negyedik Hang</td>
-                    <td><a href="chant/neumes/feltamad_apol/feltamadasi_apolytikionok_biz_4.pdf" target="_blank">⬇</a></td>
-                    <td><a href="chant/WN/feltamad_apol/negyedik_hang.pdf" target="_blank">⬇</a></td>
-                    <td>❌</audio></td>
-                </tr>
-    <!-- sor beszúrás -->
-                <tr>
-                    <td>Plagális Első Hang</td>
-                    <td><a href="chant/neumes/feltamad_apol/feltamadasi_apolytikionok_biz_5.pdf" target="_blank">⬇</a></td>
-                    <td><a href="chant/WN/feltamad_apol/otodik_hang.pdf" target="_blank">⬇</a></td>
-                    <td>❌</audio></td>
-                </tr>
-    <!-- sor beszúrás -->
-                <tr>
-                    <td>Plagális Második Hang</td>
-                    <td><a href="chant/neumes/feltamad_apol/feltamadasi_apolytikionok_biz_6.pdf" target="_blank">⬇</a></td>
-                    <td><a href="chant/WN/feltamad_apol/hatodik_hang.pdf" target="_blank">⬇</a></td>
-                    <td>❌</audio></td>
-                </tr>
-    <!-- sor beszúrás -->
-                <tr>
-                    <td>Mély Hang</td>
-                    <td><a href="chant/neumes/feltamad_apol/feltamadasi_apolytikionok_biz_7.pdf" target="_blank">⬇</a></td>
-                    <td><a href="chant/WN/feltamad_apol/hetedik_hang.pdf" target="_blank">⬇</a></td>
-                    <td>❌</audio></td>
-                </tr>
-    <!-- sor beszúrás -->
-                <tr>
-                    <td>Plagális Negyedik Hang</td>
-                    <td><a href="chant/neumes/feltamad_apol/feltamadasi_apolytikionok_biz_8.pdf" target="_blank">⬇</a></td>
-                    <td><a href="chant/WN/feltamad_apol/nyolcadik_hang.pdf" target="_blank">⬇</a></td>
-                    <!--<td><a href="chant/audio/feltamadas_apol/Feltámadási apolytikion 8.hang.m4a">▶</a></td> / EREDETI VERZIO-->
-                    <td>❌</audio></td>
-                </tr>
-            </tbody>
-        </table>
-
-        <br>
-
-        <h4 id="kis-paraklisz">Kis Könyörgő Kánon az Istenszülőnek (Paraklisz)</h4>
-        <p><a href="https://imre-luke-deak.github.io/orthodox_ws/chant/text/kis_paraklisz_struktura.pdf" class="link-underlined">Struktúra</a></p>
-
-        <br>
-
-        <h4 id="nagy-paraklisz">Nagy Könyörgő Kánon az Istenszülőnek (Paraklisz)</h4>
-        <p><a href="https://imre-luke-deak.github.io/orthodox_ws/chant/text/kis_paraklisz_struktura.pdf" class="link-underlined">Struktúra (WIP)</a></p>
-
-        <br>
-
-        <h4 id="keresztelkedes">Keresztelkedés (és bérmálás)</h4>
-        <p><a href="https://imre-luke-deak.github.io/orthodox_ws/chant/text/liturgia_struktura.pdf" class="link-underlined">Struktúra (WIP)</a></p>
-
-        <br>
-
-        <h4 id="bermalas">Bérmálás</h4>
-        <p><a href="https://imre-luke-deak.github.io/orthodox_ws/chant/text/liturgia_struktura.pdf" class="link-underlined">Struktúra (WIP)</a></p>
-        <p><a href="https://imre-luke-deak.github.io/orthodox_ws/chant/text/bermalas_tamogato_hun.pdf" class="link-underlined">Bérmálást Támogató Szöveg<br><i>(Triszágion ima, 50. Zsoltár, Hitvallás, 'Valahányan...', Apostoli Olvasmány, Alleluiarion)</i></a></p>
-
-        <br>
-
-        <h4 id="triszagion-szertartas">Triszágion szertartás: megemlékezés az elhunytakról</h4>
-        <p><a href="https://imre-luke-deak.github.io/orthodox_ws/chant/text/liturgia_struktura.pdf" class="link-underlined">Struktúra (WIP)</a></p>
-        <p><a href="https://imre-luke-deak.github.io/orthodox_ws/chant/neumes/trisagion/triszagion_megemlekezes.pdf" class="link-underlined">Szertartás, bizánci kottával</a></p>
-
-        <br>
-
-        <h4 id="eskuvo">Esküvő</h4>
-        <p><a href="https://imre-luke-deak.github.io/orthodox_ws/chant/text/liturgia_struktura.pdf" class="link-underlined">Struktúra (WIP)</a></p>
+        <h4 id="divine-liturgy">Divine Liturgy</h4>
+        <p><a href="https://imre-luke-deak.github.io/orthodox_ws/chant/neumes/divine_liturgy_fixed.pdf" class="link-underlined">Divine Liturgy, fixed elements</a></p>
 
         <br>
 
         <div class="divider" style="color: black">☦</div>
 
         <!-- Egyházmegyék/Footer -->
-        <h3 class="text-center">Egyházmegyék Magyarországon</h3>
+        <h3 class="text-center">Eastern Orthodox Jurisdictions in Hungary</h3>
 
         <p class="text-center">
-            <a href="https://patriarchatus.hu/">Konstantinápolyi Ökumenikus Patriarchátus</a><br>
-            <a href="https://magyarortodox.com/">Magyar Ortodox Egyházmegye - Moszkvai Patriarchátus</a><br>
-            <a href="https://www.serbdiocese.hu/hu/">Budai Szerb Ortodox Egyházmegye</a><br>
-            <a href="https://www.bolgarok.hu/index.php?id=80">Bolgár Ortodox Egyházmegye</a><br>
-            <a href="https://parohia-bp.net/">Román Ortodox Egyházmegye</a>
+            <a href="https://patriarchatus.hu/">Ecumenical Patriarchate</a><br>
+            <a href="https://magyarortodox.com/">Hungarian Orthodox Church - Moscow Patriarchate</a><br>
+            <a href="https://www.serbdiocese.hu/hu/">Serbian Orthodox Church, based in Buda</a><br>
+            <a href="https://www.bolgarok.hu/index.php?id=80">Bulgarian Orthodox Church</a><br>
+            <a href="https://parohia-bp.net/">Romanian Orthodox Church</a>
         </p>
 
         <br>
